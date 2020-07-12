@@ -23,3 +23,5 @@ var calculateMinimumHP = function (dungeon) {
     return dp[0][0];
 };
 
+
+/** key:Math.min(dp[i+1][j],dp[i][j+1])-dungeon[i][j] **/
